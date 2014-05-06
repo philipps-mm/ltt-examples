@@ -23,6 +23,7 @@ Defines self-contained content that could exist independently of the rest of the
 Defines some content loosely related to the page content. If it is removed, the remaining content still makes sense.
 ### Content
 Embedded video, audio, vector or other (e.g. OpenGL) content.
+
 **&lt;embed&gt;, &lt;video&gt;, &lt;audio&gt;, &lt;canvas&gt;, &lt;svg&gt;**
 ###Sections example
 
