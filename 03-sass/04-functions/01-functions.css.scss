@@ -1,0 +1,36 @@
+// -------------------------------------
+//   Mixins
+// -------------------------------------
+
+@mixin large-text {
+  color: #ff0000;
+
+  font: {
+    family: Arial;
+    size: 2em;
+    weight: bold;
+  }
+}
+
+@mixin sexy-border($color, $width) {
+  border: {
+    color: $color;
+    style: dashed;
+    width: $width;
+  }
+}
+
+// -------------------------------------
+//   Imports
+// -------------------------------------
+
+.page-title {
+  @include large-text;
+
+  margin-top: 10px;
+  padding: 4px;
+}
+
+p {
+  @include sexy-border(blue, 5px);
+}

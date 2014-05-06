@@ -1,0 +1,16 @@
+// *************************************
+//
+//   Footer
+//
+// *************************************
+
+footer {
+  background-color: $base-color;
+  color: $base-background;
+  margin-left: $l-main-margin-left;
+  padding: $base-padding;
+
+  a {
+    color: $base-background;
+  }
+}

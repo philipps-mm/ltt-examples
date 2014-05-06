@@ -1,0 +1,62 @@
+// *************************************
+//
+//   Settings
+//
+// *************************************
+
+// -------------------------------------
+//   Base Variables
+// -------------------------------------
+
+// ----- Base Colors ----- //
+
+$base-background: #ffffff;
+$base-color: #000000;
+$base-link-color: $base-color;
+
+// ----- Base Borders & Box Shadows ----- //
+
+$base-border: 1px solid $base-color;
+
+// ----- Base Content ----- //
+
+$base-fontFamily: sans-serif;
+$base-fontSize: 100%;
+
+
+// *************************************
+//
+//   Base elements
+//
+// *************************************
+
+body {
+  background: $base-background;
+  color: $base-color;
+  font-family: $base-fontFamily;
+  font-size: $base-fontSize;
+}
+
+// -------------------------------------
+//   Block Content
+// -------------------------------------
+
+h1 {
+  font-size: ($base-fontSize * 2);
+}
+
+h2 {
+  font-size: ($base-fontSize * 1.8);
+}
+
+h3 {
+  font-size: ($base-fontSize * 1.6);
+}
+
+// -------------------------------------
+//   Inline Content
+// -------------------------------------
+
+a {
+  color: $base-link-color;
+}
