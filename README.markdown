@@ -7,23 +7,23 @@ Still empty...
 ## HTML5
 [HTML5 specification](http://www.w3.org/html/wg/drafts/html/master/)
 ### Sections
-#### <header>
+#### &lt;header&gt;
 Defines the header of a page or section. It often contains a logo, the title of the Web site, and a navigational table of content.
-#### <main>
+#### &lt;main&gt;
 Defines the main or important content in the document. There is only one <main> element in the document.
-#### <footer>
+#### &lt;footer&gt;
 Defines the footer for a page or section. It often contains a copyright notice, some links to legal information, or addresses to give feedback.
-#### <nav>
+#### &lt;nav&gt;
 Defines a section that contains only navigation links.
-#### <section>
+#### &lt;section&gt;
 Defines a section in a document.
-#### <article>
+#### &lt;article&gt;
 Defines self-contained content that could exist independently of the rest of the content.
-#### <aside>
+#### &lt;aside&gt;
 Defines some content loosely related to the page content. If it is removed, the remaining content still makes sense.
 ### Content
 Embedded video, audio, vector or other (e.g. OpenGL) content.
-**<embed>, <video>, <audio>, <canvas>, <svg>**
+**&lt;embed&gt;, &lt;video&gt;, &lt;audio&gt;, &lt;canvas&gt;, &lt;svg&gt;**
 ###Sections example
 
 ```html
