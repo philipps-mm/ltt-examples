@@ -1,0 +1,51 @@
+body {
+	margin: 0 4% 0 5%;
+	font-family: helvetica;
+}
+
+/* GRID LOGIK */
+
+.block {
+	overflow: auto;
+	margin-bottom: 1%;
+	border: 0px solid red;
+}
+
+.b50 {
+	background: #ccc;
+	float: left;
+	width: 49%;
+	margin-right: 1%;
+}
+
+.b30 {
+	background: #ccc;
+	float: left;
+	width: 32.33%;
+	margin-right: 1%;
+}
+
+.b25 {
+	background: #ccc;
+	float: left;
+	width: 24%;
+	margin-right: 1%;
+}
+
+@media (max-width: 1024px) {
+  .b25 {
+	  width: 49%;
+	  margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 720px) {
+  .b50,
+  .b30,
+  .b25 {
+	  width: 100%;
+	  margin-bottom 2%;
+  }
+}
+
+
